@@ -1,0 +1,179 @@
+<!DOCTYPE svg>
+<svg width="324" height="324">
+ <g id="layer0">
+  <g id="paths">
+   <path style="fill:none;stroke:#000000;stroke-width:0.5pt;stroke-linecap:round;stroke-linejoin:round;stroke-opacity:1" d="M 35.123,280.014 C 48.6968,276.351 100.021,263.955 150.011,250.628"/>
+   <path style="fill:none;stroke:#000000;stroke-width:0.5pt;stroke-linecap:round;stroke-linejoin:round;stroke-opacity:1" d="M 150.011,250.628 C 201.303,236.955 250.64,223.834 256.908,222.142"/>
+   <path style="fill:none;stroke:#000000;stroke-width:0.5pt;stroke-linecap:round;stroke-linejoin:round;stroke-opacity:1" d="M 256.908,222.142 C 256.658,219.333 256.331,216.504 251.919,215.844"/>
+   <path style="fill:none;stroke:#000000;stroke-width:0.5pt;stroke-linecap:round;stroke-linejoin:round;stroke-opacity:1" d="M 251.919,215.844 C 244.533,214.738 162.552,238.324 148.546,242.106"/>
+   <path style="fill:none;stroke:#000000;stroke-width:0.5pt;stroke-linecap:round;stroke-linejoin:round;stroke-opacity:1" d="M 148.546,242.106 C 133.992,246.036 34.0614,268.909 35.123,280.014"/>
+   <path style="fill:none;stroke:#000000;stroke-width:0.5pt;stroke-linecap:round;stroke-linejoin:round;stroke-opacity:1" d="M 148.546,242.106 C 187.326,270.18 190.442,271.767 190.289,280.354"/>
+   <path style="fill:none;stroke:#000000;stroke-width:0.5pt;stroke-linecap:round;stroke-linejoin:round;stroke-opacity:1" d="M 190.289,280.354 C 180.047,272.562 157.724,256.506 150.011,250.628"/>
+   <path style="fill:none;stroke:#000000;stroke-width:0.5pt;stroke-linecap:round;stroke-linejoin:round;stroke-opacity:1" d="M 290.524,244.185 C 290.469,230.684 266.653,223.541 251.919,215.844"/>
+   <path style="fill:none;stroke:#000000;stroke-width:0.5pt;stroke-linecap:round;stroke-linejoin:round;stroke-opacity:1" d="M 35.123,280.014 C 74.5918,317.045 142.381,295.505 190.289,280.354"/>
+   <path style="fill:none;stroke:#000000;stroke-width:0.5pt;stroke-linecap:round;stroke-linejoin:round;stroke-opacity:1" d="M 190.289,280.354 C 202.284,276.561 288.205,249.973 290.524,244.185"/>
+   <path style="fill:none;stroke:#000000;stroke-width:0.5pt;stroke-linecap:round;stroke-linejoin:round;stroke-opacity:1" d="M 290.524,244.185 C 293.147,237.639 259.666,223.513 256.908,222.142"/>
+  </g>
+  <g id="intersections">
+   <circle fill="black" cx="35.123" cy="280.014" stroke="none" r="2"/>
+   <circle fill="black" cx="256.908" cy="222.142" stroke="none" r="2"/>
+   <circle fill="black" cx="190.289" cy="280.354" stroke="none" r="2"/>
+   <circle fill="black" cx="150.011" cy="250.628" stroke="none" r="2"/>
+   <circle fill="black" cx="251.919" cy="215.844" stroke="none" r="2"/>
+   <circle fill="black" cx="148.546" cy="242.106" stroke="none" r="2"/>
+   <circle fill="black" cx="290.524" cy="244.185" stroke="none" r="2"/>
+  </g>
+ </g>
+ <g id="layer1">
+  <g id="paths">
+   <path style="fill:none;stroke:#000000;stroke-width:0.5pt;stroke-linecap:round;stroke-linejoin:round;stroke-opacity:1" d="M 33.8763,154.41 C 33.3374,170.774 34.905,187.581 39.352,202.823"/>
+   <path style="fill:none;stroke:#000000;stroke-width:0.5pt;stroke-linecap:round;stroke-linejoin:round;stroke-opacity:1" d="M 39.352,202.823 C 42.7262,214.387 47.7612,225.046 54.7778,233.948"/>
+   <path style="fill:none;stroke:#000000;stroke-width:0.5pt;stroke-linecap:round;stroke-linejoin:round;stroke-opacity:1" d="M 54.7778,233.948 C 60.7305,241.501 68.0876,247.882 77.1049,252.361"/>
+   <path style="fill:none;stroke:#000000;stroke-width:0.5pt;stroke-linecap:round;stroke-linejoin:round;stroke-opacity:1" d="M 77.1049,252.361 C 77.0903,254.559 76.9544,258.588 76.7503,262.106"/>
+   <path style="fill:none;stroke:#000000;stroke-width:0.5pt;stroke-linecap:round;stroke-linejoin:round;stroke-opacity:1" d="M 76.7503,262.106 C 82.9754,260.426 91.7986,258.157 100.636,255.687"/>
+   <path style="fill:none;stroke:#000000;stroke-width:0.5pt;stroke-linecap:round;stroke-linejoin:round;stroke-opacity:1" d="M 100.636,255.687 C 110.591,252.903 120.585,250.017 127.04,247.902"/>
+   <path style="fill:none;stroke:#000000;stroke-width:0.5pt;stroke-linecap:round;stroke-linejoin:round;stroke-opacity:1" d="M 127.04,247.902 C 127.082,244.269 126.224,242.628 127.421,238.415"/>
+   <path style="fill:none;stroke:#000000;stroke-width:0.5pt;stroke-linecap:round;stroke-linejoin:round;stroke-opacity:1" d="M 127.421,238.415 C 136.627,232.386 143.558,224.164 148.967,214.477"/>
+   <path style="fill:none;stroke:#000000;stroke-width:0.5pt;stroke-linecap:round;stroke-linejoin:round;stroke-opacity:1" d="M 148.967,214.477 C 153.793,205.835 157.297,196.125 159.701,185.922"/>
+   <path style="fill:none;stroke:#000000;stroke-width:0.5pt;stroke-linecap:round;stroke-linejoin:round;stroke-opacity:1" d="M 159.701,185.922 C 163.911,168.056 164.893,150.154 164.07,132.877"/>
+   <path style="fill:none;stroke:#000000;stroke-width:0.5pt;stroke-linecap:round;stroke-linejoin:round;stroke-opacity:1" d="M 33.8763,154.41 C 40.7156,164.499 54.8605,172.587 72.1939,177.772"/>
+   <path style="fill:none;stroke:#000000;stroke-width:0.5pt;stroke-linecap:round;stroke-linejoin:round;stroke-opacity:1" d="M 72.1939,177.772 C 96.1324,184.933 121.191,185.435 142.233,181.87"/>
+   <path style="fill:none;stroke:#000000;stroke-width:0.5pt;stroke-linecap:round;stroke-linejoin:round;stroke-opacity:1" d="M 142.233,181.87 C 154.573,179.779 174.045,174.768 180.03,163.478"/>
+   <path style="fill:none;stroke:#000000;stroke-width:0.5pt;stroke-linecap:round;stroke-linejoin:round;stroke-opacity:1" d="M 180.03,163.478 C 185.792,152.609 174.835,139.549 164.07,132.877"/>
+   <path style="fill:none;stroke:#000000;stroke-width:0.5pt;stroke-linecap:round;stroke-linejoin:round;stroke-opacity:1" d="M 39.352,202.823 C 48.5858,213.689 61.8106,221.204 77.0823,225.364"/>
+   <path style="fill:none;stroke:#000000;stroke-width:0.5pt;stroke-linecap:round;stroke-linejoin:round;stroke-opacity:1" d="M 77.0823,225.364 C 94.7119,230.166 115.089,230.833 135.126,227.691"/>
+   <path style="fill:none;stroke:#000000;stroke-width:0.5pt;stroke-linecap:round;stroke-linejoin:round;stroke-opacity:1" d="M 135.126,227.691 C 147.172,225.801 161.948,222.101 170.009,212.228"/>
+   <path style="fill:none;stroke:#000000;stroke-width:0.5pt;stroke-linecap:round;stroke-linejoin:round;stroke-opacity:1" d="M 170.009,212.228 C 177.518,203.031 174.662,192.091 159.701,185.922"/>
+   <path style="fill:none;stroke:#000000;stroke-width:0.5pt;stroke-linecap:round;stroke-linejoin:round;stroke-opacity:1" d="M 77.1049,252.361 C 80.9747,256.202 88.3515,258.375 96.6358,259.084"/>
+   <path style="fill:none;stroke:#000000;stroke-width:0.5pt;stroke-linecap:round;stroke-linejoin:round;stroke-opacity:1" d="M 96.6358,259.084 C 103.133,259.639 110.188,259.294 116.547,258.148"/>
+   <path style="fill:none;stroke:#000000;stroke-width:0.5pt;stroke-linecap:round;stroke-linejoin:round;stroke-opacity:1" d="M 116.547,258.148 C 120.216,257.486 132.082,254.872 134.956,249.542"/>
+   <path style="fill:none;stroke:#000000;stroke-width:0.5pt;stroke-linecap:round;stroke-linejoin:round;stroke-opacity:1" d="M 134.956,249.542 C 137.426,244.962 132.08,240.512 127.421,238.415"/>
+   <path style="fill:none;stroke:#000000;stroke-width:0.5pt;stroke-linecap:round;stroke-linejoin:round;stroke-opacity:1" d="M 76.7503,262.106 C 82.3094,266.28 89.3638,268.538 96.5213,269.481"/>
+   <path style="fill:none;stroke:#000000;stroke-width:0.5pt;stroke-linecap:round;stroke-linejoin:round;stroke-opacity:1" d="M 96.5213,269.481 C 103.54,270.406 110.659,270.068 116.565,269.078"/>
+   <path style="fill:none;stroke:#000000;stroke-width:0.5pt;stroke-linecap:round;stroke-linejoin:round;stroke-opacity:1" d="M 116.565,269.078 C 124.927,267.677 132.988,264.624 135.34,257.646"/>
+   <path style="fill:none;stroke:#000000;stroke-width:0.5pt;stroke-linecap:round;stroke-linejoin:round;stroke-opacity:1" d="M 135.34,257.646 C 136.649,253.763 134.052,250.493 127.04,247.902"/>
+   <path style="fill:none;stroke:#000000;stroke-width:0.5pt;stroke-linecap:round;stroke-linejoin:round;stroke-opacity:1" d="M 142.233,181.87 C 142.045,197.447 140.21,213.261 135.126,227.691"/>
+   <path style="fill:none;stroke:#000000;stroke-width:0.5pt;stroke-linecap:round;stroke-linejoin:round;stroke-opacity:1" d="M 135.126,227.691 C 132.232,235.902 128.26,243.184 122.966,250.201"/>
+   <path style="fill:none;stroke:#000000;stroke-width:0.5pt;stroke-linecap:round;stroke-linejoin:round;stroke-opacity:1" d="M 122.966,250.201 C 121.007,252.796 118.89,255.771 116.547,258.148"/>
+   <path style="fill:none;stroke:#000000;stroke-width:0.5pt;stroke-linecap:round;stroke-linejoin:round;stroke-opacity:1" d="M 116.547,258.148 C 116.585,260.645 116.632,264.565 116.565,269.078"/>
+   <path style="fill:none;stroke:#000000;stroke-width:0.5pt;stroke-linecap:round;stroke-linejoin:round;stroke-opacity:1" d="M 116.565,269.078 C 108.061,261.794 107.805,262.038 100.636,255.687"/>
+   <path style="fill:none;stroke:#000000;stroke-width:0.5pt;stroke-linecap:round;stroke-linejoin:round;stroke-opacity:1" d="M 54.7778,233.948 C 63.5925,241.726 75.1894,246.888 87.2741,249.407"/>
+   <path style="fill:none;stroke:#000000;stroke-width:0.5pt;stroke-linecap:round;stroke-linejoin:round;stroke-opacity:1" d="M 87.2741,249.407 C 99.5119,251.957 112.249,251.806 122.966,250.201"/>
+   <path style="fill:none;stroke:#000000;stroke-width:0.5pt;stroke-linecap:round;stroke-linejoin:round;stroke-opacity:1" d="M 122.966,250.201 C 134.589,248.459 145.719,243.776 152.323,238.465"/>
+   <path style="fill:none;stroke:#000000;stroke-width:0.5pt;stroke-linecap:round;stroke-linejoin:round;stroke-opacity:1" d="M 152.323,238.465 C 162.187,230.535 163.558,223.571 148.967,214.477"/>
+   <path style="fill:none;stroke:#000000;stroke-width:0.5pt;stroke-linecap:round;stroke-linejoin:round;stroke-opacity:1" d="M 180.03,163.478 C 178.814,179.132 176.39,196.68 170.009,212.228"/>
+   <path style="fill:none;stroke:#000000;stroke-width:0.5pt;stroke-linecap:round;stroke-linejoin:round;stroke-opacity:1" d="M 170.009,212.228 C 165.95,222.116 160.291,231.196 152.323,238.465"/>
+   <path style="fill:none;stroke:#000000;stroke-width:0.5pt;stroke-linecap:round;stroke-linejoin:round;stroke-opacity:1" d="M 152.323,238.465 C 147.564,242.808 141.981,246.504 135.423,249.342"/>
+   <path style="fill:none;stroke:#000000;stroke-width:0.5pt;stroke-linecap:round;stroke-linejoin:round;stroke-opacity:1" d="M 135.423,249.342 C 135.268,249.409 135.113,249.476 134.956,249.542"/>
+   <path style="fill:none;stroke:#000000;stroke-width:0.5pt;stroke-linecap:round;stroke-linejoin:round;stroke-opacity:1" d="M 135.423,249.342 C 135.463,252.134 135.389,253.697 135.34,257.646"/>
+   <path style="fill:none;stroke:#000000;stroke-width:0.5pt;stroke-linecap:round;stroke-linejoin:round;stroke-opacity:1" d="M 72.1939,177.772 C 71.0857,189.493 72.4704,208.394 77.0823,225.364"/>
+   <path style="fill:none;stroke:#000000;stroke-width:0.5pt;stroke-linecap:round;stroke-linejoin:round;stroke-opacity:1" d="M 77.0823,225.364 C 79.5322,234.378 82.8928,242.848 87.2741,249.407"/>
+   <path style="fill:none;stroke:#000000;stroke-width:0.5pt;stroke-linecap:round;stroke-linejoin:round;stroke-opacity:1" d="M 87.2741,249.407 C 89.9928,253.477 93.1046,256.811 96.6358,259.084"/>
+   <path style="fill:none;stroke:#000000;stroke-width:0.5pt;stroke-linecap:round;stroke-linejoin:round;stroke-opacity:1" d="M 96.6358,259.084 C 96.465,261.986 96.5836,266.2 96.5213,269.481"/>
+  </g>
+  <g id="intersections">
+   <circle fill="black" cx="77.1049" cy="252.361" stroke="none" r="2"/>
+   <circle fill="black" cx="76.7503" cy="262.106" stroke="none" r="2"/>
+   <circle fill="black" cx="127.04" cy="247.902" stroke="none" r="2"/>
+   <circle fill="black" cx="127.421" cy="238.415" stroke="none" r="2"/>
+   <circle fill="black" cx="159.701" cy="185.922" stroke="none" r="2"/>
+   <circle fill="black" cx="116.547" cy="258.148" stroke="none" r="2"/>
+   <circle fill="black" cx="116.565" cy="269.078" stroke="none" r="2"/>
+   <circle fill="black" cx="135.423" cy="249.342" stroke="none" r="2"/>
+   <circle fill="black" cx="96.6358" cy="259.084" stroke="none" r="2"/>
+   <circle fill="black" cx="39.352" cy="202.823" stroke="none" r="2"/>
+   <circle fill="black" cx="54.7778" cy="233.948" stroke="none" r="2"/>
+   <circle fill="black" cx="100.636" cy="255.687" stroke="none" r="2"/>
+   <circle fill="black" cx="148.967" cy="214.477" stroke="none" r="2"/>
+   <circle fill="black" cx="72.1939" cy="177.772" stroke="none" r="2"/>
+   <circle fill="black" cx="142.233" cy="181.87" stroke="none" r="2"/>
+   <circle fill="black" cx="180.03" cy="163.478" stroke="none" r="2"/>
+   <circle fill="black" cx="77.0823" cy="225.364" stroke="none" r="2"/>
+   <circle fill="black" cx="135.126" cy="227.691" stroke="none" r="2"/>
+   <circle fill="black" cx="170.009" cy="212.228" stroke="none" r="2"/>
+   <circle fill="black" cx="134.956" cy="249.542" stroke="none" r="2"/>
+   <circle fill="black" cx="96.5213" cy="269.481" stroke="none" r="2"/>
+   <circle fill="black" cx="135.34" cy="257.646" stroke="none" r="2"/>
+   <circle fill="black" cx="122.966" cy="250.201" stroke="none" r="2"/>
+   <circle fill="black" cx="87.2741" cy="249.407" stroke="none" r="2"/>
+   <circle fill="black" cx="152.323" cy="238.465" stroke="none" r="2"/>
+  </g>
+ </g>
+ <g id="layer2">
+  <g id="paths">
+   <path style="fill:none;stroke:#000000;stroke-width:0.5pt;stroke-linecap:round;stroke-linejoin:round;stroke-opacity:1" d="M 189.222,106.336 C 193.716,108.457 199.566,111.099 204.071,112.908"/>
+   <path style="fill:none;stroke:#000000;stroke-width:0.5pt;stroke-linecap:round;stroke-linejoin:round;stroke-opacity:1" d="M 204.071,112.908 C 208.711,111.827 213.168,110.897 217.13,109.951"/>
+   <path style="fill:none;stroke:#000000;stroke-width:0.5pt;stroke-linecap:round;stroke-linejoin:round;stroke-opacity:1" d="M 217.13,109.951 C 222.634,108.636 226.643,107.642 230.276,106.672"/>
+   <path style="fill:none;stroke:#000000;stroke-width:0.5pt;stroke-linecap:round;stroke-linejoin:round;stroke-opacity:1" d="M 230.276,106.672 C 225.948,104.63 222.055,102.376 218.102,100.579"/>
+   <path style="fill:none;stroke:#000000;stroke-width:0.5pt;stroke-linecap:round;stroke-linejoin:round;stroke-opacity:1" d="M 159.72,237.788 C 168.62,244.111 184.04,255.963 188.241,259.148"/>
+   <path style="fill:none;stroke:#000000;stroke-width:0.5pt;stroke-linecap:round;stroke-linejoin:round;stroke-opacity:1" d="M 188.241,259.148 C 198.174,256.487 217.716,251.437 235.905,246.763"/>
+   <path style="fill:none;stroke:#000000;stroke-width:0.5pt;stroke-linecap:round;stroke-linejoin:round;stroke-opacity:1" d="M 235.905,246.763 C 251.903,242.652 266.199,239.024 272.671,237.23"/>
+   <path style="fill:none;stroke:#000000;stroke-width:0.5pt;stroke-linecap:round;stroke-linejoin:round;stroke-opacity:1" d="M 272.671,237.23 C 261.762,231.365 243.698,221.253 237.255,217.856"/>
+   <path style="fill:none;stroke:#000000;stroke-width:0.5pt;stroke-linecap:round;stroke-linejoin:round;stroke-opacity:1" d="M 217.13,109.951 C 216.219,169.015 225.779,216.105 235.905,246.763"/>
+   <path style="fill:none;stroke:#000000;stroke-width:0.5pt;stroke-linecap:round;stroke-linejoin:round;stroke-opacity:1" d="M 235.905,246.763 C 221.661,239.01 206.131,231 200.38,227.964"/>
+   <path style="fill:none;stroke:#000000;stroke-width:0.5pt;stroke-linecap:round;stroke-linejoin:round;stroke-opacity:1" d="M 200.38,227.964 C 212.23,224.731 223.773,221.564 237.255,217.856"/>
+   <path style="fill:none;stroke:#000000;stroke-width:0.5pt;stroke-linecap:round;stroke-linejoin:round;stroke-opacity:1" d="M 237.255,217.856 C 221.214,189.612 217.221,157.013 218.102,100.579"/>
+   <path style="fill:none;stroke:#000000;stroke-width:0.5pt;stroke-linecap:round;stroke-linejoin:round;stroke-opacity:1" d="M 218.102,100.579 C 209.993,102.922 200.106,101.11 189.222,106.336"/>
+   <path style="fill:none;stroke:#000000;stroke-width:0.5pt;stroke-linecap:round;stroke-linejoin:round;stroke-opacity:1" d="M 189.222,106.336 C 187.563,172.356 180.109,206.68 159.72,237.788"/>
+   <path style="fill:none;stroke:#000000;stroke-width:0.5pt;stroke-linecap:round;stroke-linejoin:round;stroke-opacity:1" d="M 159.72,237.788 C 158.115,240.236 192.986,229.981 200.38,227.964"/>
+   <path style="fill:none;stroke:#000000;stroke-width:0.5pt;stroke-linecap:round;stroke-linejoin:round;stroke-opacity:1" d="M 188.241,259.148 C 194.985,219.338 202.061,151.82 204.071,112.908"/>
+   <path style="fill:none;stroke:#000000;stroke-width:0.5pt;stroke-linecap:round;stroke-linejoin:round;stroke-opacity:1" d="M 230.276,106.672 C 233.763,154.764 248.251,209.321 272.671,237.23"/>
+  </g>
+  <g id="intersections">
+   <circle fill="black" cx="204.071" cy="112.908" stroke="none" r="2"/>
+   <circle fill="black" cx="230.276" cy="106.672" stroke="none" r="2"/>
+   <circle fill="black" cx="188.241" cy="259.148" stroke="none" r="2"/>
+   <circle fill="black" cx="272.671" cy="237.23" stroke="none" r="2"/>
+   <circle fill="black" cx="217.13" cy="109.951" stroke="none" r="2"/>
+   <circle fill="black" cx="235.905" cy="246.763" stroke="none" r="2"/>
+   <circle fill="black" cx="237.255" cy="217.856" stroke="none" r="2"/>
+   <circle fill="black" cx="218.102" cy="100.579" stroke="none" r="2"/>
+   <circle fill="black" cx="189.222" cy="106.336" stroke="none" r="2"/>
+   <circle fill="black" cx="159.72" cy="237.788" stroke="none" r="2"/>
+   <circle fill="black" cx="200.38" cy="227.964" stroke="none" r="2"/>
+  </g>
+ </g>
+ <g id="layer3">
+  <g id="paths">
+   <path style="fill:none;stroke:#000000;stroke-width:0.5pt;stroke-linecap:round;stroke-linejoin:round;stroke-opacity:1" d="M 65.666,65.224 C 77.0095,72.6602 89.3486,91.6456 88.999,107.667"/>
+   <path style="fill:none;stroke:#000000;stroke-width:0.5pt;stroke-linecap:round;stroke-linejoin:round;stroke-opacity:1" d="M 88.999,107.667 C 88.6565,123.362 87.4196,130.594 87.203,146.452"/>
+   <path style="fill:none;stroke:#000000;stroke-width:0.5pt;stroke-linecap:round;stroke-linejoin:round;stroke-opacity:1" d="M 87.203,146.452 C 80.0057,142.09 71.0691,136.706 66.2132,133.293"/>
+   <path style="fill:none;stroke:#000000;stroke-width:0.5pt;stroke-linecap:round;stroke-linejoin:round;stroke-opacity:1" d="M 103.346,57.2301 C 115.174,65.0096 126.601,82.1479 126.296,99.3375"/>
+   <path style="fill:none;stroke:#000000;stroke-width:0.5pt;stroke-linecap:round;stroke-linejoin:round;stroke-opacity:1" d="M 126.296,99.3375 C 125.995,116.319 126.529,124.444 126.467,136.741"/>
+   <path style="fill:none;stroke:#000000;stroke-width:0.5pt;stroke-linecap:round;stroke-linejoin:round;stroke-opacity:1" d="M 126.467,136.741 C 119.954,132.902 111.004,127.761 105.641,124.568"/>
+   <path style="fill:none;stroke:#000000;stroke-width:0.5pt;stroke-linecap:round;stroke-linejoin:round;stroke-opacity:1" d="M 245.67,27.5687 C 261.562,31.284 269.412,50.1912 269.33,67.9151"/>
+   <path style="fill:none;stroke:#000000;stroke-width:0.5pt;stroke-linecap:round;stroke-linejoin:round;stroke-opacity:1" d="M 269.33,67.9151 C 269.265,82.1632 268.924,88.7293 268.253,101.632"/>
+   <path style="fill:none;stroke:#000000;stroke-width:0.5pt;stroke-linecap:round;stroke-linejoin:round;stroke-opacity:1" d="M 268.253,101.632 C 261.04,98.8958 251.16,96.0763 244.708,93.6103"/>
+   <path style="fill:none;stroke:#000000;stroke-width:0.5pt;stroke-linecap:round;stroke-linejoin:round;stroke-opacity:1" d="M 65.666,65.224 C 68.9491,64.4995 83.6401,61.3851 103.346,57.2301"/>
+   <path style="fill:none;stroke:#000000;stroke-width:0.5pt;stroke-linecap:round;stroke-linejoin:round;stroke-opacity:1" d="M 103.346,57.2301 C 153.163,46.7262 235.032,29.5722 245.67,27.5687"/>
+   <path style="fill:none;stroke:#000000;stroke-width:0.5pt;stroke-linecap:round;stroke-linejoin:round;stroke-opacity:1" d="M 245.67,27.5687 C 245.639,32.878 246.122,45.6643 245.996,58.6906"/>
+   <path style="fill:none;stroke:#000000;stroke-width:0.5pt;stroke-linecap:round;stroke-linejoin:round;stroke-opacity:1" d="M 245.996,58.6906 C 245.861,72.5694 245.106,86.7547 244.708,93.6103"/>
+   <path style="fill:none;stroke:#000000;stroke-width:0.5pt;stroke-linecap:round;stroke-linejoin:round;stroke-opacity:1" d="M 244.708,93.6103 C 237.88,95.2862 156.266,113.365 105.641,124.568"/>
+   <path style="fill:none;stroke:#000000;stroke-width:0.5pt;stroke-linecap:round;stroke-linejoin:round;stroke-opacity:1" d="M 105.641,124.568 C 84.7027,129.202 69.0656,132.659 66.2132,133.293"/>
+   <path style="fill:none;stroke:#000000;stroke-width:0.5pt;stroke-linecap:round;stroke-linejoin:round;stroke-opacity:1" d="M 66.2132,133.293 C 65.8998,125.244 65.7398,109.885 65.6917,95.0825"/>
+   <path style="fill:none;stroke:#000000;stroke-width:0.5pt;stroke-linecap:round;stroke-linejoin:round;stroke-opacity:1" d="M 65.6917,95.0825 C 65.6503,82.3009 65.7049,69.7155 65.666,65.224"/>
+   <path style="fill:none;stroke:#000000;stroke-width:0.5pt;stroke-linecap:round;stroke-linejoin:round;stroke-opacity:1" d="M 87.203,146.452 C 95.2594,144.448 109.415,140.95 126.467,136.741"/>
+   <path style="fill:none;stroke:#000000;stroke-width:0.5pt;stroke-linecap:round;stroke-linejoin:round;stroke-opacity:1" d="M 126.467,136.741 C 174.75,124.822 246.253,107.195 268.253,101.632"/>
+   <path style="fill:none;stroke:#000000;stroke-width:0.5pt;stroke-linecap:round;stroke-linejoin:round;stroke-opacity:1" d="M 65.6917,95.0825 C 72.2459,99.0663 79.4689,103.456 88.999,107.667"/>
+   <path style="fill:none;stroke:#000000;stroke-width:0.5pt;stroke-linecap:round;stroke-linejoin:round;stroke-opacity:1" d="M 88.999,107.667 C 94.7969,106.437 108.656,103.321 126.296,99.3375"/>
+   <path style="fill:none;stroke:#000000;stroke-width:0.5pt;stroke-linecap:round;stroke-linejoin:round;stroke-opacity:1" d="M 126.296,99.3375 C 175.593,88.2064 254.417,70.3087 269.33,67.9151"/>
+   <path style="fill:none;stroke:#000000;stroke-width:0.5pt;stroke-linecap:round;stroke-linejoin:round;stroke-opacity:1" d="M 269.33,67.9151 C 259.046,63.8639 250.771,60.5856 245.996,58.6906"/>
+  </g>
+  <g id="intersections">
+   <circle fill="black" cx="65.666" cy="65.224" stroke="none" r="2"/>
+   <circle fill="black" cx="88.999" cy="107.667" stroke="none" r="2"/>
+   <circle fill="black" cx="87.203" cy="146.452" stroke="none" r="2"/>
+   <circle fill="black" cx="103.346" cy="57.2301" stroke="none" r="2"/>
+   <circle fill="black" cx="126.296" cy="99.3375" stroke="none" r="2"/>
+   <circle fill="black" cx="126.467" cy="136.741" stroke="none" r="2"/>
+   <circle fill="black" cx="245.67" cy="27.5687" stroke="none" r="2"/>
+   <circle fill="black" cx="268.253" cy="101.632" stroke="none" r="2"/>
+   <circle fill="black" cx="244.708" cy="93.6103" stroke="none" r="2"/>
+   <circle fill="black" cx="66.2132" cy="133.293" stroke="none" r="2"/>
+   <circle fill="black" cx="269.33" cy="67.9151" stroke="none" r="2"/>
+   <circle fill="black" cx="105.641" cy="124.568" stroke="none" r="2"/>
+   <circle fill="black" cx="245.996" cy="58.6906" stroke="none" r="2"/>
+   <circle fill="black" cx="65.6917" cy="95.0825" stroke="none" r="2"/>
+  </g>
+ </g>
+</svg>
