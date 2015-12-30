@@ -131,10 +131,26 @@ void Read_SVG(){
 void drawDot(pathline path) {
     glBegin(GL_POINTS);
     glVertex2i(path.SpointX,path.SpointY);
-    glVertex2i(path.Scontrol_pointX,path.Scontrol_pointY);
-    glVertex2i(path.Econtrol_pointX,path.Econtrol_pointY);
+    //glVertex2i(path.Scontrol_pointX,path.Scontrol_pointY);
+    //glVertex2i(path.Econtrol_pointX,path.Econtrol_pointY);
     glVertex2i(path.EpointX,path.EpointY);
 	glEnd();
+}
+
+void drawLine(pathline path){
+    double t = 0;
+    GLdouble Bx;
+    GLdouble By;
+
+
+    for(int i = t; i <= 100; i++){
+        Bx = path.SpointX*(1-t)*(1-t)*(1-t) + 3*path.Scontrol_pointX*t*(1-t)*(1-t) + 3*path.Econtrol_pointX*t*t*(1-t) + path.EpointX*t*t*t;
+        By = path.SpointY*(1-t)*(1-t)*(1-t) + 3*path.Scontrol_pointY*t*(1-t)*(1-t) + 3*path.Econtrol_pointY*t*t*(1-t) + path.EpointY*t*t*t;
+        t = t + 0.01;
+        glBegin(GL_POINTS);
+        glVertex2i(Bx, By);
+        glEnd();
+    }
 }
 
 void myinit()
@@ -161,7 +177,9 @@ void display( void )
     glClear(GL_COLOR_BUFFER_BIT);  /*clear the window */
     for(int i = 0; i < pathcount; i++){
     drawDot(path[i]);
+    drawLine(path[i]);
     }
+    drawLine(path[0]);
     glFlush(); /* clear buffers */
  }
 
