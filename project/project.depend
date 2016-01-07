@@ -1,12 +1,14 @@
 # depslib dependency file v1.0
-1451448805 source:d:\homework\cg\finalproject\project\main.cpp
+1452138592 source:d:\homework\cg\finalproject\project\main.cpp
 	<stdio.h>
 	<stdlib.h>
 	<iostream>
 	<string>
+	<time.h>
 	<fstream>
 	<windows.h>
 	<GL/glut.h>
+	<GL/glu.h>
 
 1341010376 c:\program files (x86)\codeblocks\mingw\include\stdio.h
 	<_mingw.h>
@@ -232,4 +234,17 @@
 1301111164 c:\program files (x86)\codeblocks\mingw\include\gl\glu.h
 	<stddef.h>
 	<GL/gl.h>
+
+1451461426 source:c:\users\user\desktop\project\main.cpp
+	<stdio.h>
+	<stdlib.h>
+	<iostream>
+	<string>
+	<fstream>
+	<windows.h>
+	<GL/glut.h>
+
+1341010376 c:\program files (x86)\codeblocks\mingw\include\time.h
+	<_mingw.h>
+	<stddef.h>
 
