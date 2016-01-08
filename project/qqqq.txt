@@ -1,0 +1,23 @@
+<path style="fill:none;stroke:#000000;stroke-width:0.5pt;stroke-linecap:round;stroke-linejoin:round;stroke-opacity:1" d="M 65.666,65.224 C 77.0095,72.6602 89.3486,91.6456 88.999,107.667"/>
+   <path style="fill:none;stroke:#000000;stroke-width:0.5pt;stroke-linecap:round;stroke-linejoin:round;stroke-opacity:1" d="M 88.999,107.667 C 88.6565,123.362 87.4196,130.594 87.203,146.452"/>
+   <path style="fill:none;stroke:#000000;stroke-width:0.5pt;stroke-linecap:round;stroke-linejoin:round;stroke-opacity:1" d="M 87.203,146.452 C 80.0057,142.09 71.0691,136.706 66.2132,133.293"/>
+   <path style="fill:none;stroke:#000000;stroke-width:0.5pt;stroke-linecap:round;stroke-linejoin:round;stroke-opacity:1" d="M 103.346,57.2301 C 115.174,65.0096 126.601,82.1479 126.296,99.3375"/>
+   <path style="fill:none;stroke:#000000;stroke-width:0.5pt;stroke-linecap:round;stroke-linejoin:round;stroke-opacity:1" d="M 126.296,99.3375 C 125.995,116.319 126.529,124.444 126.467,136.741"/>
+   <path style="fill:none;stroke:#000000;stroke-width:0.5pt;stroke-linecap:round;stroke-linejoin:round;stroke-opacity:1" d="M 126.467,136.741 C 119.954,132.902 111.004,127.761 105.641,124.568"/>
+   <path style="fill:none;stroke:#000000;stroke-width:0.5pt;stroke-linecap:round;stroke-linejoin:round;stroke-opacity:1" d="M 245.67,27.5687 C 261.562,31.284 269.412,50.1912 269.33,67.9151"/>
+   <path style="fill:none;stroke:#000000;stroke-width:0.5pt;stroke-linecap:round;stroke-linejoin:round;stroke-opacity:1" d="M 269.33,67.9151 C 269.265,82.1632 268.924,88.7293 268.253,101.632"/>
+   <path style="fill:none;stroke:#000000;stroke-width:0.5pt;stroke-linecap:round;stroke-linejoin:round;stroke-opacity:1" d="M 268.253,101.632 C 261.04,98.8958 251.16,96.0763 244.708,93.6103"/>
+   <path style="fill:none;stroke:#000000;stroke-width:0.5pt;stroke-linecap:round;stroke-linejoin:round;stroke-opacity:1" d="M 65.666,65.224 C 68.9491,64.4995 83.6401,61.3851 103.346,57.2301"/>
+   <path style="fill:none;stroke:#000000;stroke-width:0.5pt;stroke-linecap:round;stroke-linejoin:round;stroke-opacity:1" d="M 103.346,57.2301 C 153.163,46.7262 235.032,29.5722 245.67,27.5687"/>
+   <path style="fill:none;stroke:#000000;stroke-width:0.5pt;stroke-linecap:round;stroke-linejoin:round;stroke-opacity:1" d="M 245.67,27.5687 C 245.639,32.878 246.122,45.6643 245.996,58.6906"/>
+   <path style="fill:none;stroke:#000000;stroke-width:0.5pt;stroke-linecap:round;stroke-linejoin:round;stroke-opacity:1" d="M 245.996,58.6906 C 245.861,72.5694 245.106,86.7547 244.708,93.6103"/>
+   <path style="fill:none;stroke:#000000;stroke-width:0.5pt;stroke-linecap:round;stroke-linejoin:round;stroke-opacity:1" d="M 244.708,93.6103 C 237.88,95.2862 156.266,113.365 105.641,124.568"/>
+   <path style="fill:none;stroke:#000000;stroke-width:0.5pt;stroke-linecap:round;stroke-linejoin:round;stroke-opacity:1" d="M 105.641,124.568 C 84.7027,129.202 69.0656,132.659 66.2132,133.293"/>
+   <path style="fill:none;stroke:#000000;stroke-width:0.5pt;stroke-linecap:round;stroke-linejoin:round;stroke-opacity:1" d="M 66.2132,133.293 C 65.8998,125.244 65.7398,109.885 65.6917,95.0825"/>
+   <path style="fill:none;stroke:#000000;stroke-width:0.5pt;stroke-linecap:round;stroke-linejoin:round;stroke-opacity:1" d="M 65.6917,95.0825 C 65.6503,82.3009 65.7049,69.7155 65.666,65.224"/>
+   <path style="fill:none;stroke:#000000;stroke-width:0.5pt;stroke-linecap:round;stroke-linejoin:round;stroke-opacity:1" d="M 87.203,146.452 C 95.2594,144.448 109.415,140.95 126.467,136.741"/>
+   <path style="fill:none;stroke:#000000;stroke-width:0.5pt;stroke-linecap:round;stroke-linejoin:round;stroke-opacity:1" d="M 126.467,136.741 C 174.75,124.822 246.253,107.195 268.253,101.632"/>
+   <path style="fill:none;stroke:#000000;stroke-width:0.5pt;stroke-linecap:round;stroke-linejoin:round;stroke-opacity:1" d="M 65.6917,95.0825 C 72.2459,99.0663 79.4689,103.456 88.999,107.667"/>
+   <path style="fill:none;stroke:#000000;stroke-width:0.5pt;stroke-linecap:round;stroke-linejoin:round;stroke-opacity:1" d="M 88.999,107.667 C 94.7969,106.437 108.656,103.321 126.296,99.3375"/>
+   <path style="fill:none;stroke:#000000;stroke-width:0.5pt;stroke-linecap:round;stroke-linejoin:round;stroke-opacity:1" d="M 126.296,99.3375 C 175.593,88.2064 254.417,70.3087 269.33,67.9151"/>
+   <path style="fill:none;stroke:#000000;stroke-width:0.5pt;stroke-linecap:round;stroke-linejoin:round;stroke-opacity:1" d="M 269.33,67.9151 C 259.046,63.8639 250.771,60.5856 245.996,58.6906"/>

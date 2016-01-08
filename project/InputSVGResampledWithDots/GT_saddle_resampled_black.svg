@@ -1,0 +1,22 @@
+<!DOCTYPE svg>
+<svg width="900" height="900">
+ <g id="layer0">
+  <g id="paths">
+   <path style="fill:none;stroke:#000000;stroke-width:0.5pt;stroke-linecap:round;stroke-linejoin:round;stroke-opacity:1" d="M 217.342,165.036 C 365.163,21.4407 594.045,146.823 747.419,206.313"/>
+   <path style="fill:none;stroke:#000000;stroke-width:0.5pt;stroke-linecap:round;stroke-linejoin:round;stroke-opacity:1" d="M 747.419,206.313 C 909.825,269.305 850.339,216.534 692.193,385.739"/>
+   <path style="fill:none;stroke:#000000;stroke-width:0.5pt;stroke-linecap:round;stroke-linejoin:round;stroke-opacity:1" d="M 692.193,385.739 C 586.387,498.944 334.606,838.928 165.984,780.228"/>
+   <path style="fill:none;stroke:#000000;stroke-width:0.5pt;stroke-linecap:round;stroke-linejoin:round;stroke-opacity:1" d="M 165.984,780.228 C -13.3173,717.81 80.3307,298.13 217.342,165.036"/>
+   <path style="fill:none;stroke:#000000;stroke-width:0.5pt;stroke-linecap:round;stroke-linejoin:round;stroke-opacity:1" d="M 217.342,165.036 C 263.936,268.415 359.966,342.167 459.325,378.762"/>
+   <path style="fill:none;stroke:#000000;stroke-width:0.5pt;stroke-linecap:round;stroke-linejoin:round;stroke-opacity:1" d="M 459.325,378.762 C 544.057,409.97 631.21,414.256 692.193,385.739"/>
+   <path style="fill:none;stroke:#000000;stroke-width:0.5pt;stroke-linecap:round;stroke-linejoin:round;stroke-opacity:1" d="M 165.984,780.228 C 242.85,641.659 347.009,491.114 459.325,378.762"/>
+   <path style="fill:none;stroke:#000000;stroke-width:0.5pt;stroke-linecap:round;stroke-linejoin:round;stroke-opacity:1" d="M 459.325,378.762 C 553.383,284.672 653.161,217.368 747.419,206.313"/>
+  </g>
+  <g id="intersections">
+   <circle fill="black" cx="217.342" cy="165.036" stroke="none" r="2"/>
+   <circle fill="black" cx="747.419" cy="206.313" stroke="none" r="2"/>
+   <circle fill="black" cx="692.193" cy="385.739" stroke="none" r="2"/>
+   <circle fill="black" cx="165.984" cy="780.228" stroke="none" r="2"/>
+   <circle fill="black" cx="459.325" cy="378.762" stroke="none" r="2"/>
+  </g>
+ </g>
+</svg>

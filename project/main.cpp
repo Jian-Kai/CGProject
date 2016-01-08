@@ -26,6 +26,10 @@ struct pathline{
     double EpointY;
     double Scontrol_pointY;
     double Econtrol_pointY;
+    double SpointZ;
+    double EpointZ;
+    double Scontrol_pointZ;
+    double Econtrol_pointZ;
 };
 
 struct points {
@@ -44,38 +48,61 @@ double e = 2.71828;
 
 
 pathline path[1000];
-int pathcount = 0;
+int pathcount = 1;
 int space = 0;
 int layercount = 0;
 double Xmax, Xmin, Ymax, Ymin;
 
+double storeP[10000][1000][4];
+int repeat, enter;
 
 
 
 void fidelity(){
 
-    int i;
+    int cheak = 0;
+    int time = 1;
     double E, V, F;
-    while(i < 10000){
+    double store;
+    while(time <= 10000){
 
 
-            for(int j = 0; j < pathcount; j++){
+            for(int i= 1; i < pathcount; i++){
+                Sp[i].z = (rand()%342)+1;
+                SCp[i].z = (rand()%342)+1;
+                ECp[i].z = (rand()%342)+1;
+                Ep[i].z = (rand()%342)+1;
+            }
+           for(int k = 1; k < time; k++){
+                for(int j = 1; j < pathcount; j++){
+                    if(Sp[j].z == storeP[k][j][0] && SCp[j].z == storeP[k][j][1] && ECp[j].z == storeP[k][j][2]  && Ep[j].z == storeP[k][j][3]){
+                        repeat++;
+                    }
+                }
+                if(repeat == pathcount){
+                    for(int i= 1; i < pathcount; i++){
+                        Sp[i].z = (rand()%342)+1;
+                        SCp[i].z = (rand()%342)+1;
+                        ECp[i].z = (rand()%342)+1;
+                        Ep[i].z = (rand()%342)+1;
+                        k=1;
+                    }
+                    repeat = 0;
+                }
+            }
 
-                Sp[j].z = (rand()%342)+1;
-                SCp[j].z = (rand()%342)+1;
-                ECp[j].z = (rand()%342)+1;
-                Ep[j].z = (rand()%342)+1;
-               // for(int k = 0; k < i; k++){
-
-             //   }
-
+            for(int i= 1; i < pathcount; i++){
+                storeP[time][i][0] = Sp[i].z;
+                storeP[time][i][1] = SCp[i].z;
+                storeP[time][i][2] = ECp[i].z;
+                storeP[time][i][3] = Ep[i].z;
             }
 
 
-            for(int i = 0; i < pathcount; i++){
 
+            for(int i = 1; i < pathcount; i++){
 
-        /////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////
+/////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////
 
                 double matrix[3][4];
                 matrix[0][0]=1;
@@ -96,7 +123,7 @@ void fidelity(){
                 double temp = matrix[1][0];
 
                  for(int i = 0; i<4;i++){
-                matrix[1][i] = matrix[1][i] - (matrix[0][i]*(temp));
+                    matrix[1][i] = matrix[1][i] - (matrix[0][i]*(temp));
                 }
 
                 temp = matrix[2][0];
@@ -119,9 +146,6 @@ void fidelity(){
 
                 //printf("%f  %f  %f  %f    %d\n", matrix[0][3],matrix[1][3],matrix[2][3], matrix[0][3]+matrix[1][3]+matrix[2][3], i);
 
-                if(matrix[0][3] == 0 || matrix[1][3] == 0 || matrix[2][3] == 0){
-                    printf("%f  %f  %f  %f    %d\n", matrix[0][3],matrix[1][3],matrix[2][3], matrix[0][3]+matrix[1][3]+matrix[2][3], i);
-                }
 
                 double q0,q1,q2,t0,t1;
                 double wdv;
@@ -143,6 +167,7 @@ void fidelity(){
                     V = V + wdv*((q0*Sp[i].z+q1*SCp[i].z+q2*ECp[i].z-Ep[i].z)*(q0*Sp[i].z+q1*SCp[i].z+q2*ECp[i].z-Ep[i].z));
                 }
                 else{
+                    enter++;
                     t0 = (path[i].Scontrol_pointX-path[i].Econtrol_pointX)/(path[i].SpointX-path[i].Econtrol_pointX);
                     t1 = (path[i].Scontrol_pointY-path[i].Econtrol_pointY)/(path[i].SpointY-path[i].Econtrol_pointY);
                     if(t0 == t1) printf("1:true ");
@@ -185,22 +210,56 @@ void fidelity(){
                 wdf=pow(e,(-1*temp*temp)/(2*342*342*2)) + 0.01;
                 F = F + wdf*(Ep[i].z-ECp[i].z)*(Ep[i].z-ECp[i].z);
             }
-            i++;
-            E=2*V+0.001*F;
+
+            if(cheak !=0){
+                store = E;
+                E=2*V+0.001*F;
+                if(E>=store){
+                    E=store;
+                }
+                else {
+                    for(int i = 1; i < pathcount; i++){
+                        storeP[0][i][0] = Sp[i].z;
+                        storeP[0][i][1] = SCp[i].z;
+                        storeP[0][i][2] = ECp[i].z;
+                        storeP[0][i][3] = Ep[i].z;
+
+                    }
+                }
+            }
+            else{
+                E=2*V+0.001*F;
+                    for(int i = 1; i < pathcount; i++){
+                        storeP[0][i][0] = Sp[i].z;
+                        storeP[0][i][1] = SCp[i].z;
+                        storeP[0][i][2] = ECp[i].z;
+                        storeP[0][i][3] = Ep[i].z;
+
+                    }
+            }
+
+            time++;
+            cheak=1;
             printf("V  %f , F  %f , E  %f \n", V, F, E);
             V = 0;
             F = 0;
-            E = 0;
     }
+    for(int i = 1; i < pathcount; i++){
+           path[i].SpointZ = storeP[0][i][0];
+           path[i].Scontrol_pointZ = storeP[0][i][1];
+           path[i].Econtrol_pointZ = storeP[0][i][2];
+           path[i].EpointZ = storeP[0][i][3];
+
+    }
+   // printf("%d",enter);
+
 }
-
-
 
 
 void Read_SVG(){
 
     fstream fin;
-    fin.open("D:/HomeWork/CG/FinalProject/project/box_bump_cut_half_resampled_black.svg",ios::in);
+    fin.open("D:/HomeWork/CG/FinalProject/project/car_97_rmCurves_half_resampled_black.svg",ios::in);
 
     while(fin.getline(line,sizeof(line),'\n')){
 
@@ -209,7 +268,8 @@ void Read_SVG(){
                     layercount++;
                 }
                 else if(line[i] == 'M'){
-                    for(int j = i; j <= (i+18); j++){
+                        int j = i;
+                    while( line[j] != 'C'){
                         if(isdigit(line[j]) || line[j] =='.' || line[j] == '-'){
                             layer = layer + line[j];
                         }
@@ -227,10 +287,12 @@ void Read_SVG(){
                                 layer = "";
                             }
                         }
+                        j++;
                     }
                 }
                 else if(line[i] == 'C' && line[i-1] == ' '){
-                    for(int j = i ; j < (i+55); j++){
+                    int j = i;
+                    while( line[j] != '/'){
                         if(isdigit(line[j]) || line[j] =='.' || line[j] == '-'){
                             layer = layer + line[j];
                         }
@@ -274,6 +336,7 @@ void Read_SVG(){
                                 layer = "";
                             }
                         }
+                        j++;
                     }
                     pathcount++;
                     space = 0;
@@ -288,17 +351,17 @@ void Read_SVG(){
     //cheak spoint
     //printf("%d\n" ,layercount);
 
-    for(int i = 0; i < pathcount; i++){
+   /* for(int i = 1; i < pathcount; i++){
 
-        //printf("C: %.4f,%.4f ", path[i].SpointX, path[i].SpointY);
-       // printf("M: %.4f,%.4f %.4f,%.4f %.4f,%.4f \n", path[i].Scontrol_pointX, path[i].Scontrol_pointY, path[i].Econtrol_pointX, path[i].Econtrol_pointY, path[i].EpointX, path[i].EpointY);
-       // printf("%d\n", i);
+        printf("C: %.4f,%.4f ", path[i].SpointX, path[i].SpointY);
+        printf("M: %.4f,%.4f %.4f,%.4f %.4f,%.4f \n", path[i].Scontrol_pointX, path[i].Scontrol_pointY, path[i].Econtrol_pointX, path[i].Econtrol_pointY, path[i].EpointX, path[i].EpointY);
+        printf("%d\n", i);
     }
-    //printf("%d", pathcount);
+    printf("%d", pathcount);*/
 }
 
 void orthRange(){
-    for(int i = 0; i < pathcount; i++){
+    for(int i = 1; i < pathcount; i++){
         if(path[i].SpointX > Xmax)
             Xmax = path[i].SpointX;
         else if(path[i].EpointX > Xmax)
@@ -357,15 +420,25 @@ void drawLine(pathline path){
     double t = 0;
     GLdouble Bx;
     GLdouble By;
+    GLdouble Bz;
 
-    for(int i = t; i <= 200; i++){
+    glBegin(GL_LINE_STRIP);
+
+    for(int i = t; i <= 100; i++){
         Bx = path.SpointX*(1-t)*(1-t)*(1-t) + 3*path.Scontrol_pointX*t*(1-t)*(1-t) + 3*path.Econtrol_pointX*t*t*(1-t) + path.EpointX*t*t*t;
         By = path.SpointY*(1-t)*(1-t)*(1-t) + 3*path.Scontrol_pointY*t*(1-t)*(1-t) + 3*path.Econtrol_pointY*t*t*(1-t) + path.EpointY*t*t*t;
-        t = t + 0.005;
-        glBegin(GL_POINTS);
-        glVertex3i(Bx, By, 0);
-        glEnd();
+        Bz = path.SpointZ*(1-t)*(1-t)*(1-t) + 3*path.Scontrol_pointZ*t*(1-t)*(1-t) + 3*path.Econtrol_pointZ*t*t*(1-t) + path.EpointZ*t*t*t;
+       //printf("%f\n", Bz);
+        t = t + 0.01;
+
+
+
+
+        glVertex3f(Bx, By, Bz);
+      // glVertex2i(Bx, By);
+
     }
+       glEnd();
 }
 
 void myinit(){
@@ -382,7 +455,7 @@ void myinit(){
 
       glMatrixMode(GL_PROJECTION);
       glLoadIdentity();
-      glOrtho(Xmin, Xmax, Ymax, Ymin, 0, -10);
+      glOrtho(Xmin*2, Xmax*2, Ymax*2, Ymin*2, 0, -500);
       glMatrixMode(GL_MODELVIEW);
 
 }
@@ -391,16 +464,15 @@ void myinit(){
 void display( void ){
 
     glClear(GL_COLOR_BUFFER_BIT);  /*clear the window */
-    for(int i = 0; i < pathcount; i++){
-    drawDot(path[i]);
+
+    glTranslated(400, 0, 0);
+
+
+    for(int i = 1; i < pathcount; i++){
+    //drawDot(path[i]);
     drawLine(path[i]);
     }
 
-  /*  glBegin(GL_POINTS);
-    glColor3f(1.0, 0.0, 0.0);
-    glVertex2i(path[49].SpointX, path[49].SpointY);
-    glEnd();
-*/
     glFlush(); /* clear buffers */
  }
 
@@ -417,12 +489,6 @@ int main(int argc, char** argv){
     randomize();
     fidelity();
 
-   /* GLdouble dotX = (path[49].Scontrol_pointX - path[49].SpointX) * (path[50].Scontrol_pointX - path[50].SpointX);
-    GLdouble dotY = (path[49].Scontrol_pointY - path[49].SpointY) * (path[50].Scontrol_pointY - path[50].SpointY);
-
-    if((dotX + dotY) == 0)
-        printf("true");
-    else printf("false");*/
 
 
 
@@ -430,12 +496,13 @@ int main(int argc, char** argv){
     glutInitDisplayMode (GLUT_SINGLE | GLUT_RGB); /* default, not needed */
     glutInitWindowSize(500,500); /* 500 x 500 pixel window */
     glutInitWindowPosition(0,0); /* place window top left on display */
-    glutCreateWindow("Sierpinski Gasket"); /* window title */
+    glutCreateWindow("CG"); /* window title */
 
 
     glutDisplayFunc(display); /* display callback invoked when window opened */
 
     myinit(); /* set attributes */
+
 
     glutMainLoop(); /* enter event loop */
 
