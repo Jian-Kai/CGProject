@@ -236,20 +236,23 @@
 	<stddef.h>
 	<GL/gl.h>
 
-1451461426 source:c:\users\user\desktop\project\main.cpp
+1452569075 source:c:\users\user\desktop\project\main.cpp
 	<stdio.h>
 	<stdlib.h>
 	<iostream>
 	<string>
+	<time.h>
 	<fstream>
+	<math.h>
 	<windows.h>
 	<GL/glut.h>
+	<GL/glu.h>
 
 1341010376 c:\program files (x86)\codeblocks\mingw\include\time.h
 	<_mingw.h>
 	<stddef.h>
 
-1452158235 source:d:\git\cgproject\project\main.cpp
+1452569075 source:d:\git\cgproject\project\main.cpp
 	<stdio.h>
 	<stdlib.h>
 	<iostream>
@@ -263,4 +266,16 @@
 
 1341010374 c:\program files (x86)\codeblocks\mingw\include\math.h
 	<_mingw.h>
+
+1452526635 source:c:\users\tony\desktop\project\main.cpp
+	<stdio.h>
+	<stdlib.h>
+	<iostream>
+	<string>
+	<time.h>
+	<fstream>
+	<math.h>
+	<windows.h>
+	<GL/glut.h>
+	<GL/glu.h>
 
