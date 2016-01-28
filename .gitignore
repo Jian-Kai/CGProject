@@ -1,3 +1,16 @@
+# codeblock
+[Bb]in/*  
+![Bb]in/data/  
+[Bb]uild/  
+[Oo]bj/  
+*.o  
+[Dd]ebug*/  
+[Rr]elease*/  
+
+*.depend  
+*.layout  
+
+
 # Windows image file caches
 Thumbs.db
 ehthumbs.db
